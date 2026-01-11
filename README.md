@@ -1,212 +1,106 @@
-[github portfolio.html](https://github.com/user-attachments/files/24551512/github.portfolio.html)
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Developer Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# 👋 Full-Stack PHP Developer
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
+**Building robust web applications with 7+ years of core PHP expertise**
 
-        .container {
-            max-width: 900px;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 60px 40px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            border: 1px solid rgba(255, 255, 255, 0.18);
-        }
+> 💡 **Specialization:** Core/Vanilla PHP development with modern JavaScript, RESTful APIs, and automated deployment pipelines
 
-        h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
+---
 
-        .tagline {
-            font-size: 1.3em;
-            margin-bottom: 40px;
-            opacity: 0.9;
-        }
+## 🔧 Core Stack (7 years)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
-        }
+- **Core/Vanilla PHP** with MySQL database management
+- **Modern JavaScript** (Async/Await, Fetch API, Ajax)
+- **jQuery** for rapid DOM manipulation
+- **RESTful API** development and integration
+- **Streamlined security** practices (SQL injection prevention, XSS protection)
 
-        .skill-card {
-            background: rgba(255, 255, 255, 0.15);
-            padding: 25px;
-            border-radius: 15px;
-            transition: transform 0.3s ease, background 0.3s ease;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
+---
 
-        .skill-card:hover {
-            transform: translateY(-5px);
-            background: rgba(255, 255, 255, 0.25);
-        }
+## 🚀 DevOps & Deployment
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-        .skill-title {
-            font-size: 1.1em;
-            font-weight: 600;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+- **GitHub** version control (7 years)
+- **GitHub Actions** for CI/CD automated deployment (7 years)
+- **Docker** containerization (2 years)
 
-        .skill-years {
-            font-size: 0.85em;
-            opacity: 0.8;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 4px 12px;
-            border-radius: 20px;
-            display: inline-block;
-        }
+---
 
-        .highlight {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 30px;
-            border-radius: 15px;
-            margin-top: 30px;
-            border-left: 4px solid #fff;
-        }
+## ☁️ Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white)
 
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 15px;
-        }
+- **cPanel** server management (5 years)
+- **AWS EC2** compute instances (1 year)
+- **AWS S3** cloud storage (1 year)
 
-        .tech-tag {
-            background: rgba(255, 255, 255, 0.25);
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-        }
+---
 
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2em;
-            }
-            
-            .tagline {
-                font-size: 1.1em;
-            }
-            
-            .container {
-                padding: 40px 25px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>👋 Full-Stack PHP Developer</h1>
-        <p class="tagline">Building robust web applications with 7+ years of core PHP expertise</p>
+## 🛠️ Frameworks & Tools
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
-        <div class="highlight">
-            <strong>💡 Specialization:</strong> Core/Vanilla PHP development with modern JavaScript, RESTful APIs, and automated deployment pipelines
-        </div>
+- **Laravel** framework (1 year)
+- **RESTful API** architecture and design
+- **N8N** workflow automation (1 year)
+- **Make** automation platform (1 year)
 
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="skill-title">
-                    🔧 Core Stack
-                    <span class="skill-years">7 years</span>
-                </div>
-                <div class="tech-stack">
-                    <span class="tech-tag">PHP</span>
-                    <span class="tech-tag">MySQL</span>
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">Ajax</span>
-                    <span class="tech-tag">jQuery</span>
-                    <span class="tech-tag">Async/Await</span>
-                    <span class="tech-tag">Fetch API</span>
-                </div>
-            </div>
+---
 
-            <div class="skill-card">
-                <div class="skill-title">
-                    🚀 DevOps & Deployment
-                </div>
-                <div class="tech-stack">
-                    <span class="tech-tag">Git/GitHub <small>3yr</small></span>
-                    <span class="tech-tag">GitHub Actions <small>2yr</small></span>
-                    <span class="tech-tag">Docker <small>2yr</small></span>
-                    <span class="tech-tag">CI/CD</span>
-                </div>
-            </div>
+## 🔒 Security & Best Practices
 
-            <div class="skill-card">
-                <div class="skill-title">
-                    ☁️ Cloud & Infrastructure
-                </div>
-                <div class="tech-stack">
-                    <span class="tech-tag">cPanel <small>5yr</small></span>
-                    <span class="tech-tag">AWS EC2 <small>1yr</small></span>
-                    <span class="tech-tag">AWS S3 <small>1yr</small></span>
-                </div>
-            </div>
+- ✅ Secure coding standards
+- ✅ SQL injection prevention
+- ✅ XSS (Cross-Site Scripting) protection
+- ✅ Authentication & authorization implementation
+- ✅ Data validation & sanitization
 
-            <div class="skill-card">
-                <div class="skill-title">
-                    🛠️ Frameworks & Tools
-                </div>
-                <div class="tech-stack">
-                    <span class="tech-tag">Laravel <small>1yr</small></span>
-                    <span class="tech-tag">RESTful APIs</span>
-                    <span class="tech-tag">N8N <small>1yr</small></span>
-                    <span class="tech-tag">Make <small>1yr</small></span>
-                </div>
-            </div>
+---
 
-            <div class="skill-card">
-                <div class="skill-title">
-                    🔒 Security & Best Practices
-                </div>
-                <div class="tech-stack">
-                    <span class="tech-tag">Secure Coding</span>
-                    <span class="tech-tag">SQL Injection Prevention</span>
-                    <span class="tech-tag">XSS Protection</span>
-                    <span class="tech-tag">Authentication</span>
-                </div>
-            </div>
+## ⚡ Automation Expertise
 
-            <div class="skill-card">
-                <div class="skill-title">
-                    ⚡ Automation
-                </div>
-                <div class="tech-stack">
-                    <span class="tech-tag">Workflow Automation</span>
-                    <span class="tech-tag">N8N Workflows</span>
-                    <span class="tech-tag">Make Scenarios</span>
-                    <span class="tech-tag">API Integration</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+- Workflow automation with **N8N**
+- Process automation with **Make**
+- API integration and orchestration
+- Automated deployment pipelines
+
+---
+
+## 📊 Experience Timeline
+
+```
+PHP/MySQL/JavaScript    ████████████████████ 7 years
+cPanel Management       ███████████████      5 years
+GitHub & Actions        ███████████          3 years
+Docker                  ████                 2 years
+Laravel                 ██                   1 year
+AWS (EC2/S3)            ██                   1 year
+N8N & Make              ██                   1 year
+```
+
+---
+
+## 💼 What I Bring to the Table
+
+- Deep expertise in **vanilla PHP** for maximum control and performance
+- Proven track record with **automated deployment** workflows
+- Strong foundation in **modern JavaScript** (ES6+, async patterns)
+- Experience with both **traditional hosting** and **cloud infrastructure**
+- Automation mindset with **N8N** and **Make** integration skills
+
+---
+
+## 📫 Let's Connect
+
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/johnlouisuru)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/john-louis-uru)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jlouisuru@gmail.com)
+
+---
+
+⭐ **Open to collaborations and interesting projects!**
