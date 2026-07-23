@@ -28,16 +28,28 @@
 ---
 
 ## 🚀 DevOps & Deployment
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-- **GitHub** version control (7 years)
-- **GitHub Actions** for CI/CD automated deployment (7 years)
-- **Docker** containerization (2 years)
-
----
+- **Git** & **GitHub** for version control and collaborative development (7 years)
+- **GitHub Actions** for CI/CD pipelines and automated deployments
+- **Docker** for application containerization and portable development environments
+- **Linux** server administration and command-line operations
+- **Nginx** and **Apache** web server configuration
+- **Cloudflare** for DNS management, SSL, caching, and security
+- **cPanel** server and web hosting management
+- **Postman** for API development, testing, and documentation
+- **Environment configuration** using `.env` files and secrets management
+- **Automated deployment** through Git-based workflows and CI/CD pipelines
 
 ## ☁️ Cloud & Infrastructure
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
