@@ -51,6 +51,39 @@
 - **Environment configuration** using `.env` files and secrets management
 - **Automated deployment** through Git-based workflows and CI/CD pipelines
 
+---
+
+## 🤖 AI Specialist
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Make](https://img.shields.io/badge/Make-6D5DF6?style=for-the-badge)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![Pinecone](https://img.shields.io/badge/Pinecone-0A3D62?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
+
+- **OpenAI API** (GPT-4.1, GPT-5, Embeddings, Assistants, Function Calling)
+- **Anthropic Claude API** integration
+- **Google Gemini API** integration
+- **AI Automation** using **n8n** and **Make**
+- **Model Context Protocol (MCP)** integration
+- **AI Agents** with tool calling and multi-step reasoning
+- **Prompt Engineering** and structured prompting
+- **Retrieval-Augmented Generation (RAG)** architectures
+- **Vector Databases** (Pinecone)
+- **LangChain** for LLM orchestration
+- **Ollama** for running local LLMs
+- **REST API** integration with AI services
+- **Python** automation for AI workflows
+- **Document Processing** (PDF, DOCX, OCR, embeddings)
+- **Chatbots**, **AI Assistants**, and workflow automation
+
+---
+
 ## ☁️ Cloud & Infrastructure
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white)
