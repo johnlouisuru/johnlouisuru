@@ -2,7 +2,7 @@
 
 **Building robust web applications with 7+ years of core PHP expertise**
 
-> 💡 **Specialization:** Core/Vanilla PHP development with modern JavaScript, RESTful APIs, and automated deployment pipelines
+> 💡 **Specialization:** Laravel PHP development with modern JavaScript, RESTful APIs, and automated deployment pipelines
 
 ---
 
