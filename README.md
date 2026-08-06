@@ -1,4 +1,4 @@
-# 👋 Full-Stack PHP Developer
+# 👋 Full-Stack Software Developer and AI Automation Specialist
 
 **Building robust web applications with 7+ years of core PHP expertise**
 
